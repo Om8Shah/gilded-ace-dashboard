@@ -15,7 +15,7 @@ Which 10 of 300 slot machines should the casino replace (Jan 1 – Jun 30, 2025)
 - AI/BI dashboard (4 pages, one per challenge question), built with Genie Code.
 
 ## Repo contents
-- `notebooks/`: exported Databricks notebook(s), run top to bottom.
+- `notebooks/`: Databricks source notebooks `00` to `03`, run in order (import with Workspace > Import). They rebuild the tables behind the dashboard from the 7 parquet files in the volume. The final action-plan cell (sensitivity and break-even) is documented in the write-up; the `03` plan cell asserts the costs match $39,900.
 - `dashboard/`: dashboard export and screenshots.
 
 ## Method notes and limitations
